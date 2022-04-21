@@ -13,9 +13,9 @@ FanDuel had the following contest: "$30K Sun NFL Pooch Punt (150 Entries Max)"
 Each lineup entry fee was $0.05. The total size of the entry pool was 658,727 entries!
 I entered 4 different lineups for that contest. Here's one example entry:
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://github.com/mruston209/Springboard/blob/main/Capstone2/FanDuel_Entry.jpeg)
 
-Text goes on...
+
 
 
 
