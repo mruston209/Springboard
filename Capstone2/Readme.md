@@ -15,6 +15,11 @@ I entered 4 different lineups for that contest. Here's one example entry:
 
 ![This is an image](https://github.com/mruston209/Springboard/blob/main/Capstone2/FanDuel_Entry.jpeg)
 
+### 2. Data Sources
+I found RotoGuru, which has data on all 18 weeks of the season here:
+
+http://rotoguru1.com/cgi-bin/fyday.pl?week=18&game=fd&scsv=1
+
 
 
 
