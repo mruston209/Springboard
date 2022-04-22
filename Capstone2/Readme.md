@@ -93,6 +93,15 @@ We again look at the relationship between salary and points scored, this time fo
 
 ![Image of TE data](https://github.com/mruston209/Springboard/blob/main/Capstone2/TE_performance_linear.png)
 
+Again for Tight Ends the data is sparse above a salary of about $7000.
+However, I would say the relationship appears to flatten out for salaries over ~$7000.
+
+### Defenses
+Last, but not least, we look at Defenses and the relationship between salary and points scored.
+The salary range for defenses is $3000 to $5200, with just a single observation at $5200. The next highest is $5000.
+So, all but one Defense data point have salaries between $3000 to $5000 inclusive.
+
+![Image of DEF data](https://github.com/mruston209/Springboard/blob/main/Capstone2/DEF_performance_linear.png)
 
 
 
