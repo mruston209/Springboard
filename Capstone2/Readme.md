@@ -60,7 +60,9 @@ The right hand side of this graphic shows average score by salary, as well as th
 
 ![Image of QB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/QB_performance_linear.png)
 
-
+Two things jump out:
+-The data includes back-up QB's, who often don't play. They have lower salaries, but frequently score 0. This explains the low average score of the lowest-salaried QBs.
+-The relationship between salary and average score appears to flatten out at the high end of the salary range.
 
 
 
