@@ -30,6 +30,13 @@ Any given Sunday, most teams are playing, with just 2-4 on bye that week.
 The data was relatively clean, but not perfect.
 For example, when looking at the QB's data, three points were missing salary values:
 
+![Image of QB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/QB_data_before_cleaning.png)
+
+The three points on the left were simply deleted, as they were a very small percentage of the overall data.
+After those three erroneous points were removed, we were left with the following QB data:
+
+![Image of QB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/QB_data_after_cleaning.png)
+
 
 
 
