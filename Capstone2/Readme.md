@@ -56,6 +56,7 @@ Just a few observations with missing fantasy salaries were removed from the data
 Now that basic data cleaning is done, let's look at the relationship between salary and points scored in more detail.
 We will do this for each position group separately (QB, RB, WR, TE, DEF).
 
+#### Quarterbacks
 Starting with Quarterbacks, here's a graphic showing every datapoint of salary vs. points scored and the best fit line.
 The right hand side of this graphic shows average score by salary, as well as the line of best fit through the data.
 
@@ -66,6 +67,14 @@ Two things jump out:
 * The data includes back-up QB's, who often don't play. They have lower salaries, but frequently score 0. This explains the low average score of the lowest-salaried QBs.
 * The relationship between salary and average score appears to flatten out at the high end of the salary range.
 
+Above about $8000 in salary, the relationship between salary and points scored appears to flatten out.
+
+I also tried moving the 0 scores, as a proxy for removing back-up QBs. The take-away message was the same, however.
+
+#### Running Backs
+Again we look at a graphic showing salary vs points scored, and the best fit line.
+
+![Image of RB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/RB_performance_linear.png)
 
 
 
