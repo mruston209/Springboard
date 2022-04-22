@@ -56,8 +56,9 @@ Now that basic data cleaning is done, let's look at the relationship between sal
 We will do this for each position group separately (QB, RB, WR, TE, DEF).
 
 Starting with Quarterbacks, here's a graphic showing every datapoint of salary vs. points scored and the best fit line.
+The right hand side of this graphic shows average score by salary, as well as the line of best fit through the data.
 
-![Image of QB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/QB_data_after_cleaning.png)
+![Image of QB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/QB_performance_linear.png)
 
 
 
