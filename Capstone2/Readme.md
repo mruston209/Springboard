@@ -41,9 +41,10 @@ We note the following:
 The minimum QB salary was $6000.
 The maximum QB salary was $9000, though there were only 3 occurences with a QB salary of $9000.
 In case you're curious:
--Kyler Murray (the Arizona Cardinals QB) had a salary of $9000 during week 3, when they played against the Jacksonville Jaguars.
--Patrick Mahomes (The KC Chiefs QB) had a salary of $9000 during week 6, when they played against the Washington Football Team.
--Josh Allen (The Buffalo Bills QB) had a salary of $9000 during week 9, when they played the Jacksonville Jaguars.
+
+*Kyler Murray (the Arizona Cardinals QB) had a salary of $9000 during week 3, when they played against the Jacksonville Jaguars.
+*Patrick Mahomes (The KC Chiefs QB) had a salary of $9000 during week 6, when they played against the Washington Football Team.
+*Josh Allen (The Buffalo Bills QB) had a salary of $9000 during week 9, when they played the Jacksonville Jaguars.
 
 We note a positive correlation between FD salary and FD points scored.
 However, there is a lot of variability here, and a high salary is not a guarantee of a high scoring QB.
@@ -61,8 +62,9 @@ The right hand side of this graphic shows average score by salary, as well as th
 ![Image of QB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/QB_performance_linear.png)
 
 Two things jump out:
--The data includes back-up QB's, who often don't play. They have lower salaries, but frequently score 0. This explains the low average score of the lowest-salaried QBs.
--The relationship between salary and average score appears to flatten out at the high end of the salary range.
+
+*The data includes back-up QB's, who often don't play. They have lower salaries, but frequently score 0. This explains the low average score of the lowest-salaried QBs.
+*The relationship between salary and average score appears to flatten out at the high end of the salary range.
 
 
 
