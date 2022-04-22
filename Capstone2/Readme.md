@@ -103,5 +103,7 @@ So, all but one Defense data point have salaries between $3000 to $5000 inclusiv
 
 ![Image of DEF data](https://github.com/mruston209/Springboard/blob/main/Capstone2/DEF_performance_linear.png)
 
+In this case, the linear relationship doesn't seem to break down for higher salaries. The linear relationship between salary and average score appears to hold across the range of Defense salaries ($3000 to $5200).
+
 
 
