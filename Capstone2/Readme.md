@@ -111,6 +111,11 @@ To attempt to answer this question, we look salaries by position, but split on h
 
 ![Image of Salaries by Position](https://github.com/mruston209/Springboard/blob/main/Capstone2/Salary_by_Position.png)
 
+Average salaries by position are nearly identical Home vs. Away. Running Backs playing at home are slightly more expensive than Running Backs playing on the road: $5488 vs $5477. For the other four positions, average salaries are even closer.
+
+Now, is there a difference in average performance?
+
+![Image of Scores by Position](https://github.com/mruston209/Springboard/blob/main/Capstone2/Score_by_Position.png)
 
 
 
