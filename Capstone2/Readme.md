@@ -37,6 +37,28 @@ After those three erroneous points were removed, we were left with the following
 
 ![Image of QB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/QB_data_after_cleaning.png)
 
+We note the following:
+The minimum QB salary was $6000.
+The maximum QB salary was $9000, though there were only 3 occurences with a QB salary of $9000.
+In case you're curious:
+-Kyler Murray (the Arizona Cardinals QB) had a salary of $9000 during week 3, when they played against the Jacksonville Jaguars.
+-Patrick Mahomes (The KC Chiefs QB) had a salary of $9000 during week 6, when they played against the Washington Football Team.
+-Josh Allen (The Buffalo Bills QB) had a salary of $9000 during week 9, when they played the Jacksonville Jaguars.
+
+We note a positive correlation between FD salary and FD points scored.
+However, there is a lot of variability here, and a high salary is not a guarantee of a high scoring QB.
+
+Data for Running Backs, Wide Receivers, Tight Ends, and Defenses was cleaned in the same manner.
+Just a few observations with missing fantasy salaries were removed from the data set.
+
+### 4. Exploratory Data Analysis
+Now that basic data cleaning is done, let's look at the relationship between salary and points scored in more detail.
+We will do this for each position group separately (QB, RB, WR, TE, DEF).
+
+Starting with Quarterbacks, here's a graphic showing every datapoint of salary vs. points scored and the best fit line.
+
+![Image of QB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/QB_data_after_cleaning.png)
+
 
 
 
