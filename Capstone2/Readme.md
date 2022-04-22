@@ -13,10 +13,11 @@ FanDuel had the following contest: "$30K Sun NFL Pooch Punt (150 Entries Max)"
 Each lineup entry fee was $0.05. The total size of the entry pool was 658,727 entries!
 I entered 4 different lineups for that contest. Here's one example entry:
 
-![This is an image](https://github.com/mruston209/Springboard/blob/main/Capstone2/FanDuel_Entry.jpeg)
+![This is an image](https://github.com/mruston209/Springboard/blob/main/Capstone2/FanDuel_Entry_Small.jpeg)
 
 ### 2. Data Sources
-I found RotoGuru, which has data on all 18 weeks of the season here:
+I found RotoGuru, which has data on all 18 weeks of the season.
+Here is the link to week 18 data:
 
 http://rotoguru1.com/cgi-bin/fyday.pl?week=18&game=fd&scsv=1
 
