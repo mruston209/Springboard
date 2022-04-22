@@ -117,6 +117,14 @@ Now, is there a difference in average performance?
 
 ![Image of Scores by Position](https://github.com/mruston209/Springboard/blob/main/Capstone2/Score_by_Position.png)
 
+Yes, it does appear that there's a difference in average performance, home vs away.
+The biggest difference appears to be for Defenses and QBs:
+* Home Average for Defenses: 6.79
+* Away Average for Defenses: 6.16
+* Home Average for QBs: 14.08
+* Away Average for QBs: 13.71
+
+The differences are small, but it does appear that home Defenses and home QBs outperform road Defenses and road QBs, on average.
 
 
 ## 5. Feature Engineering
