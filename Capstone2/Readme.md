@@ -76,6 +76,16 @@ Again we look at a graphic showing salary vs points scored, and the best fit lin
 
 ![Image of RB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/RB_performance_linear.png)
 
+Running Backs with a salary over $9000 are relatively rare, so there aren't a lot of datapoints on the right side of the plot.
+It does appear that above the $8000 level, the relationship between salary and score is fairly flat, though there is significant variance in performance for players with salary over $8000.
+
+
+#### Wide Receivers
+The graphic below shows salary vs points scored for Wide Receivers during the 2021 NFL season, as well as the line of best fit.
+
+![Image of WR data](https://github.com/mruston209/Springboard/blob/main/Capstone2/WR_performance_linear.png)
+
+
 
 
 
