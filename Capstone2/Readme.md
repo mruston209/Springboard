@@ -105,5 +105,43 @@ So, all but one Defense data point have salaries between $3000 to $5000 inclusiv
 
 In this case, the linear relationship doesn't seem to break down for higher salaries. The linear relationship between salary and average score appears to hold across the range of Defense salaries ($3000 to $5200).
 
+### Home vs. Away
+We expect home teams to do a little better than away teams, on average. Is this captured by player salaries? I.e. do players playing at home have slightly higher salaries on average than players playing on the road?
+To attempt to answer this question, we look salaries by position, but split on home vs away.
+
+![Image of Salaries by Position](https://github.com/mruston209/Springboard/blob/main/Capstone2/Salary_by_Position.png)
+
+
+
+
+## 5. Feature Engineering
+Next we look at Feature Engineering. We expect the biggest determinant of a given score to be the player's salary. We expect that despite the high variability, expected score should be an increasing function of salary. We also don't expect that this relationship is perfectly linear, as we saw in the Exploratory Data Analysis section.
+
+Other factors that might be predictive:
+* Recent player performance (This might not be fully captured by the weekly updated player salary)
+* Opponent's recent performance against (Again, perhaps match-ups are not fully captured by each players' salary)
+* Weather (I mention this as a possibility, but the dataset does not include weather info)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
