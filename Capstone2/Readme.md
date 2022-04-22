@@ -21,6 +21,16 @@ Here is the link to week 18 data:
 
 http://rotoguru1.com/cgi-bin/fyday.pl?week=18&game=fd&scsv=1
 
+Teams played 17 games during the 2021 season, up from 16 games previously.
+Each team also gets one bye week during the season, when they don't play a game.
+Thus, the regular season is 18 weeks long.
+Any given Sunday, most teams are playing, with just 2-4 on bye that week.
+
+### 3. Data Cleaning
+The data was relatively clean, but not perfect.
+For example, when looking at the QB's data, three points were missing salary values:
+
+
 
 
 
