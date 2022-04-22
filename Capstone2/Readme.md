@@ -1,10 +1,10 @@
 
-## Capstone 2 - NFL Daily Fantasy Project
+# Capstone 2 - NFL Daily Fantasy Project
 
 The motivation for this project was that I was active on FanDuel during the football season.
 Daily fantasy sports can be a lot of fun! Can data science help me construct winning lineups?
 
-### 1. Background on NFL daily fantasy contests
+## 1. Background on NFL daily fantasy contests
 FanDuel has different ways of gambling on sports. One way is DFS (daily fantasy sports) where one chooses a roster of players.
 You then win money if your chosen lineup scores enough points compared to other people's lineups.
 
@@ -15,7 +15,7 @@ I entered 4 different lineups for that contest. Here's one example entry:
 
 ![This is an image](https://github.com/mruston209/Springboard/blob/main/Capstone2/FanDuel_Entry_Small.jpeg)
 
-### 2. Data Sources
+## 2. Data Sources
 I found RotoGuru, which has data on all 18 weeks of the season.
 Here is the link to week 18 data:
 
@@ -26,7 +26,7 @@ Each team also gets one bye week during the season, when they don't play a game.
 Thus, the regular season is 18 weeks long.
 Any given Sunday, most teams are playing, with just 2-4 on bye that week.
 
-### 3. Data Cleaning
+## 3. Data Cleaning
 The data was relatively clean, but not perfect.
 For example, when looking at the QB's data, three points were missing salary values:
 
@@ -52,11 +52,11 @@ However, there is a lot of variability here, and a high salary is not a guarante
 Data for Running Backs, Wide Receivers, Tight Ends, and Defenses was cleaned in the same manner.
 Just a few observations with missing fantasy salaries were removed from the data set.
 
-### 4. Exploratory Data Analysis
+## 4. Exploratory Data Analysis
 Now that basic data cleaning is done, let's look at the relationship between salary and points scored in more detail.
 We will do this for each position group separately (QB, RB, WR, TE, DEF).
 
-#### Quarterbacks
+### Quarterbacks
 Starting with Quarterbacks, here's a graphic showing every datapoint of salary vs. points scored and the best fit line.
 The right hand side of this graphic shows average score by salary, as well as the line of best fit through the data.
 
@@ -71,7 +71,7 @@ Above about $8000 in salary, the relationship between salary and points scored a
 
 I also tried moving the 0 scores, as a proxy for removing back-up QBs. The take-away message was the same, however.
 
-#### Running Backs
+### Running Backs
 Again we look at a graphic showing salary vs points scored, and the best fit line.
 
 ![Image of RB data](https://github.com/mruston209/Springboard/blob/main/Capstone2/RB_performance_linear.png)
@@ -80,14 +80,18 @@ Running Backs with a salary over $9000 are relatively rare, so there aren't a lo
 It does appear that above the $8000 level, the relationship between salary and score is fairly flat, though there is significant variance in performance for players with salary over $8000.
 
 
-#### Wide Receivers
+### Wide Receivers
 The graphic below shows salary vs points scored for Wide Receivers during the 2021 NFL season, as well as the line of best fit.
 
 ![Image of WR data](https://github.com/mruston209/Springboard/blob/main/Capstone2/WR_performance_linear.png)
 
+Again, at the high end of Wide Receiver salaries, it appears the relationship between salary and score flattens out.
+Most of the WR data points above $9000 in salary fall below the best-fit line.
 
+### Tight Ends
+We again look at the relationship between salary and points scored, this time for Tight Ends.
 
-
+![Image of TE data](https://github.com/mruston209/Springboard/blob/main/Capstone2/TE_performance_linear.png)
 
 
 
