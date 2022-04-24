@@ -135,6 +135,19 @@ Other factors that might be predictive:
 * Opponent's recent performance against (Again, perhaps match-ups are not fully captured by each players' salary)
 * Weather (I mention this as a possibility, but the dataset does not include weather info)
 
+Variables related to recent player performance that I included:
+* Last Points - The fantasy points scored by the player in the last week, and NaN for their first week in the dataset
+* Last Salary - The player's fantasy salary last week, and NaN for their first week in the dataset
+* Salary MA3 - The average of the current player salary and the previous 2 weeks' salaries. NaN if less than 3 weeks are available.
+* Lagged Points MA3 - The average of the previous 3 weeks' points scored, not including the current week. NaN if less than 3 weeks of data are available.
+* Salary CMA - The cumulative average of the player's salary from week 1 to the current week.
+* Lagged Points CMA - The cumulative average of the player's weekly scores, not including the current week. NaN for the first week the player plays.
+* Lagged Oppt Points - The sum of points given up to the player's position by the current opponent in the opponent's last game. NaN for the first week.
+* Lagged Oppt Points CMA - The cumulative average of points given up to the player's position by the current opponent in the opponents previous games.
+* Lagged Oppt Points MA3 - The average of points given up to the player's position by the current opponent over that opponent's last 3 games.
+
+## 6. Modeling
+
 
 
 
