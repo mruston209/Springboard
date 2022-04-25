@@ -147,6 +147,19 @@ Variables related to recent player performance that I included:
 * Lagged Oppt Points MA3 - The average of points given up to the player's position by the current opponent over that opponent's last 3 games.
 
 ## 6. Modeling
+* More Needed Here
+* More Needed Here
+* More Needed Here
+
+
+## 7. 'Stacking' based on Position Correlations
+Because of the nature of how fantasy points are scored, players on the same team will have positively correlated fantasy scores.
+When a Quarterback does well, the Wide Receivers on that team will likely do well, too. To look into this, we rank the WR, RB, and TE positions based on fantasy salaries. The highest cost WR on a team on a given week will be given the label of 'WR1'. The second-highest cost WR on a team on a given week will be called 'WR2' and so on for RB's and TE's.
+After pivoting the data so each row is a game and each column is the scores of QB, WR1, WR2, WR3, RB1, RB2, TE1, TE2, and Defense, we can investigate the correlation between positions.
+
+Players at the same salary level will can share a ranking. For instance, two Wide Receivers at the same salary level could both be WR2 for a given week. So, when summarizing the data in the format mentioned above, we take the average WR2 score for that week.
+
+![Heatmap of Correlations between Positions](https://github.com/mruston209/Springboard/blob/main/Capstone2/Correlation_Heatmap.png)
 
 
 
