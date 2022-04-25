@@ -159,7 +159,14 @@ After pivoting the data so each row is a game and each column is the scores of Q
 
 Players at the same salary level will can share a ranking. For instance, two Wide Receivers at the same salary level could both be WR2 for a given week. So, when summarizing the data in the format mentioned above, we take the average WR2 score for that week.
 
-![Heatmap of Correlations between Positions](https://github.com/mruston209/Springboard/blob/main/Capstone2/Correlation_Heatmap.png)
+![Heatmap of Correlations between Positions](https://github.com/mruston209/Springboard/blob/main/Capstone2/Correlations_Heatmap.png)
+
+This heatmap tells us a lot about how players' scores are correlated. We see that Defensive scoring is not highly correlated with any of the offensive position scoring.
+
+The highest correlation is between a QB and WR1. This correlation is nearly 0.40. Correlations between the QB and WR2 and WR3 are around 0.30, also significantly positive. The correlation between QB and TE1 scoring is also around 0.30.
+
+So, what's the ideal amount of stacking? Should we take the QB, WR1, WR2, WR3, and TE1 all from the same team? Or is this too much stacking?
+We can look at the ideal line-up each week and look at the number of different teams represented to get an idea for how much stacking is optimal.
 
 
 
