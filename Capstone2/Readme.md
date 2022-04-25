@@ -170,11 +170,12 @@ We can look at the ideal line-up each week and look at the number of different t
 For each week (1-17), I calculated the optimal lineup, then counted the number of different teams on that lineup. This would be at most 9, if every player comes from a different team, and could be as low as 3, if only 3 different teams' players show up in the optimal lineup.
 
 Results were:
-**Week:  Unique Teams in Optimal Lineup **
-- Week 1:    8
-- Week 2:    8
-- Week 3:    7
-- Week 4:    9
+
+**Week:  Unique Teams in Optimal Lineup**
+- Week 1:\t    8
+- Week 2:\t    8
+- Week 3:\t    7
+- Week 4:\t    9
 - Week 5:    7
 - Week 6:    8
 - Week 7:    7
