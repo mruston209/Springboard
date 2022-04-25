@@ -170,24 +170,24 @@ We can look at the ideal line-up each week and look at the number of different t
 For each week (1-17), I calculated the optimal lineup, then counted the number of different teams on that lineup. This would be at most 9, if every player comes from a different team, and could be as low as 3, if only 3 different teams' players show up in the optimal lineup.
 
 Results were:
-Week:  Unique Teams in Optimal Lineup
-Week 1:    8
-Week 2:    8
-Week 3:    7
-Week 4:    9
-Week 5:    7
-Week 6:    8
-Week 7:    7
-Week 8:    8
-Week 9:    9
-Week 10:   6
-Week 11:   8
-Week 12:   8
-Week 13:   9
-Week 14:   9
-Week 15:   7
-Week 16:   7
-Week 17:   7
+**Week:  Unique Teams in Optimal Lineup **
+- Week 1:    8
+- Week 2:    8
+- Week 3:    7
+- Week 4:    9
+- Week 5:    7
+- Week 6:    8
+- Week 7:    7
+- Week 8:    8
+- Week 9:    9
+- Week 10:   6
+- Week 11:   8
+- Week 12:   8
+- Week 13:   9
+- Week 14:   9
+- Week 15:   7
+- Week 16:   7
+- Week 17:   7
 
 In my eyes, not strong evidence in favor of stacking.
 8 or 7 unique teams in 12 weeks (6 each), 9 unique teams in 4 weeks, and one week with 6 teams represented.
