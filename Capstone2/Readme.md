@@ -194,12 +194,13 @@ In my eyes, not strong evidence in favor of stacking.
 8 or 7 unique teams in 12 weeks (6 each), 9 unique teams in 4 weeks, and one week with 6 teams represented.
 
 
+
 ### Should we choose a RB, WR, or TE for the Flex position?
 Again, I looked at the optimal lineup in each week and which position was used in the Flex spot: RB, WR, or TE
 Results were, of the 17 weeks:
-- RB in the Flex 11 times
-- WR in the Flex 4 times
-- TE in the Flex 2 times
+- RB in the Flex: 11 times
+- WR in the Flex: 4 times
+- TE in the Flex: 2 times
 
 
 
