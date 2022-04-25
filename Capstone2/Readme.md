@@ -167,6 +167,32 @@ The highest correlation is between a QB and WR1. This correlation is nearly 0.40
 
 So, what's the ideal amount of stacking? Should we take the QB, WR1, WR2, WR3, and TE1 all from the same team? Or is this too much stacking?
 We can look at the ideal line-up each week and look at the number of different teams represented to get an idea for how much stacking is optimal.
+For each week (1-17), I calculated the optimal lineup, then counted the number of different teams on that lineup. This would be at most 9, if every player comes from a different team, and could be as low as 3, if only 3 different teams' players show up in the optimal lineup.
+
+Results were:
+Week  Unique Teams
+1.    8
+2.    8
+3.    7
+4.    9
+5.    7
+6.    8
+7.    7
+8.    8
+9.    9
+10.   6
+11.   8
+12.   8
+13.   9
+14.   9
+15.   7
+16.   7
+17.   7
+
+In my eyes, not strong evidence in favor of stacking.
+8 or 7 unique teams in 12 weeks (6 each), 9 unique teams in 4 weeks, and one week with 6 teams represented.
+
+
 
 
 
