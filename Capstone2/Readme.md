@@ -150,6 +150,11 @@ Variables related to recent player performance that I included:
 After feature engineering, the next step is Modeling.
 The goal here is to find a model to predict each player's fantasy points scored based on the features.
 
+I first tried a linear regression model. This gave, on the test set, an MAE of just under 4.0 and an MSE of just over 32.0
+
+I next tried a Random Forest regressor. In order to attempt to control for overfitting, I used the "RandomizedSearchCV" function, along with a set of parameters to try. This tried 100 different candidate models and returned the best parameter set over those 100 iterations.
+This Random Forest model produced an MAE of 3.96 on the test set and an MSE of 31.6 on the test set.
+
 
 * More Needed Here
 * More Needed Here
