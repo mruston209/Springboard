@@ -147,7 +147,10 @@ Variables related to recent player performance that I included:
 * Lagged Oppt Points MA3 - The average of points given up to the player's position by the current opponent over that opponent's last 3 games.
 
 ## 6. Modeling
-* More Needed Here
+After feature engineering, the next step is Modeling.
+The goal here is to find a model to predict each player's fantasy points scored based on the features.
+
+
 * More Needed Here
 * More Needed Here
 
