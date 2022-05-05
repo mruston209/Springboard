@@ -155,9 +155,36 @@ I first tried a linear regression model. This gave, on the test set, an MAE of j
 I next tried a Random Forest regressor. In order to attempt to control for overfitting, I used the "RandomizedSearchCV" function, along with a set of parameters to try. This tried 100 different candidate models and returned the best parameter set over those 100 iterations.
 This Random Forest model produced an MAE of 3.96 on the test set and an MSE of 31.6 on the test set.
 
+The real question here- are these projections good enough to produce winning lineups?
+To test this question, I set the data up to and including week 10 as the training set, and week 11 data as the test set.
+I fit a linear regression on the training data and used it to predict week 11 scores.
 
-* More Needed Here
-* More Needed Here
+With the week 11 projections, I used the PuLP python library to find the optimal valid lineup.
+The 9 players in the optimal lineup were:
+
+'Howard, Jordan' (RB)
+'Montgomery, David' (RB)
+'Samuel, Deebo' (WR)
+'Moore, D.J.' (WR)
+'Cooks, Brandin' (WR)
+'Kelce, Travis' (TE)
+'Mahomes II, Patrick' (QB)
+'Indianapolis' (DEF)
+'Mixon, Joe' (RB)
+
+This lineup was projected to score just over 112 points. Actually, it scored 104.8 points.
+What was the actual optimal lineup for week 11?
+
+'Herbert, Justin' (QB)
+'Jefferson, Justin' (WR)
+'Valdes-Scantling, Marquez' (WR)
+'Moore, Elijah' (WR)
+'Mooney, Darnell' (WR)
+'Ertz, Zach' (TE)
+'Taylor, Jonathan' (RB)
+'New England' (DEF)
+'Ekeler, Austin' (RB)
+
 
 
 ### 'Stacking' based on Position Correlations
