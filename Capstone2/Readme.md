@@ -185,6 +185,9 @@ What was the actual optimal lineup for week 11?
 'New England' (DEF)
 'Ekeler, Austin' (RB)
 
+This lineup was only projected to score 96.8 points, but actually scored over 278 points.
+
+In this case, the projections were not at all helpful in identifying the optimal lineup, unfortunately.
 
 
 ### 'Stacking' based on Position Correlations
@@ -237,7 +240,12 @@ Results were, of the 17 weeks:
 - WR in the Flex: 4 times
 - TE in the Flex: 2 times
 
-
+## 7. Further work
+There's more to do.
+- Work more on better feature engineering
+- Try other regression modeling techniques to improve projections
+- Try additional weeks as the test set, with all previous weeks' data as training set
+- Think more about stacking and position correlations
 
 
 
